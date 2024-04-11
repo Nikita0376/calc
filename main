@@ -1,0 +1,15 @@
+number 1 = int(input("First number: "))
+number 2 = int(input("Second number: "))
+
+action = input("action: ")
+
+if action == "+":
+  print(number1 + number2)
+elif action == "-":
+  print(number1 - number2)
+if action == "*":
+  print(number1 * number2)
+if action == "/":
+  print(number1 / number2)
+else:
+  print("Invalid action")
